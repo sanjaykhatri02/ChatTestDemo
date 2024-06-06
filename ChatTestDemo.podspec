@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChatTestDemo'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A ChatTestDemo App That is Demo.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*'
   
-  s.swift_version = '5.0'
+  s.swift_version = ['4.0','5.0']
   
   # s.resource_bundles = {
   #   'ChatTestDemo' => ['ChatTestDemo/Assets/*.png']
@@ -39,4 +39,23 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'Alamofire', '~> 5.9.0'
+  s.dependency 'LMCSideMenu'
+  s.dependency 'iOSDropDown'
+  s.dependency 'ProgressHUD'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'NVActivityIndicatorView'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'Firebase/Core'
+  s.dependency 'Firebase/Messaging'
+  s.dependency 'Kingfisher'
+  s.dependency 'SwiftEventBus'
+  s.dependency 'SwiftGifOrigin'
+  s.dependency 'FMDB'
+  s.dependency 'SwiftSignalRClient'
+  s.dependency 'Toaster'
+  s.dependency 'ImageLoader'
+  s.dependency 'BSImagePicker'
+  
 end
+
