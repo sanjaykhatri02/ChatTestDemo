@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import ChatTestDemo
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Validator.sayHello()
     }
 
     override func didReceiveMemoryWarning() {
