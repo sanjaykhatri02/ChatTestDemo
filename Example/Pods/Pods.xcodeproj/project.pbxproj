@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		04877C832C10714A0054252A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877C822C10714A0054252A /* Validator.swift */; };
+		04C3D1652C11E583007E558B /* SwiftGifOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3D1642C11E583007E558B /* SwiftGifOrigin.swift */; };
+		04C440502C12E29B009D5227 /* SwiftEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4404F2C12E29B009D5227 /* SwiftEventBus.swift */; };
+		04C440542C12E56F009D5227 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C440522C12E56F009D5227 /* SideMenu.storyboard */; };
+		04C440552C12E56F009D5227 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C440532C12E56F009D5227 /* Chat.storyboard */; };
 		2C7517C98E938D276408ECA90EB497B6 /* Pods-ChatTestDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE079D077F818365534FC1A4A8511B57 /* Pods-ChatTestDemo_Tests-dummy.m */; };
 		2C9784D3C9406B90E1AC9A163350A4C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4BAD563C37B1C76C85E895E0760B94BF /* Pods-ChatTestDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D1A55161C0501CD581321BB9B7E16D /* Pods-ChatTestDemo_Example-dummy.m */; };
@@ -38,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		04877C822C10714A0054252A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		04C3D1642C11E583007E558B /* SwiftGifOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGifOrigin.swift; sourceTree = "<group>"; };
+		04C4404F2C12E29B009D5227 /* SwiftEventBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEventBus.swift; sourceTree = "<group>"; };
+		04C440522C12E56F009D5227 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		04C440532C12E56F009D5227 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		07A253B9494800748E2B1D58F95B0DBC /* Pods-ChatTestDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatTestDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		10D1A55161C0501CD581321BB9B7E16D /* Pods-ChatTestDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatTestDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		25A9FAED67C2CFB52B2EC27458267D3C /* Pods-ChatTestDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatTestDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,8 +129,19 @@
 			isa = PBXGroup;
 			children = (
 				04877C822C10714A0054252A /* Validator.swift */,
+				04C3D1642C11E583007E558B /* SwiftGifOrigin.swift */,
+				04C4404F2C12E29B009D5227 /* SwiftEventBus.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		04C440512C12E4FA009D5227 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04C440532C12E56F009D5227 /* Chat.storyboard */,
+				04C440522C12E56F009D5227 /* SideMenu.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		27CA3FE05AE4A739C19DEA2509D02B22 /* Pod */ = {
@@ -146,6 +165,7 @@
 		63AE8BEF8BD2EB6F537E8F0E923F7942 /* ChatTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04C440512C12E4FA009D5227 /* Resources */,
 				04877C812C1071390054252A /* Classes */,
 				27CA3FE05AE4A739C19DEA2509D02B22 /* Pod */,
 				FC126E0C75191A5E8A4810F82767DFC4 /* Support Files */,
@@ -363,6 +383,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C440552C12E56F009D5227 /* Chat.storyboard in Resources */,
+				04C440542C12E56F009D5227 /* SideMenu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +404,8 @@
 			files = (
 				04877C832C10714A0054252A /* Validator.swift in Sources */,
 				50F71B1CEFAFE83602FAED76F0305D51 /* ChatTestDemo-dummy.m in Sources */,
+				04C3D1652C11E583007E558B /* SwiftGifOrigin.swift in Sources */,
+				04C440502C12E29B009D5227 /* SwiftEventBus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

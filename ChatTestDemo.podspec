@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChatTestDemo'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A ChatTestDemo App That is Demo.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'Classes/**/*'
+  s.resources = 'Resources/**/*.{png,jpeg,jpg,storyboard,xib}'
   
   s.swift_version = ['4.0','5.0']
   
@@ -49,8 +50,8 @@ Pod::Spec.new do |s|
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Messaging'
   s.dependency 'Kingfisher'
-  s.dependency 'SwiftEventBus'
-  s.dependency 'SwiftGifOrigin'
+#  s.dependency 'SwiftEventBus'
+#  s.dependency 'SwiftGifOrigin', '~> 1.7.0'
   s.dependency 'FMDB'
   s.dependency 'SwiftSignalRClient'
   s.dependency 'Toaster'
